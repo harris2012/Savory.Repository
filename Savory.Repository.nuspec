@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Savory.Repository</id>
+    <version>1.0.0</version>
+    <title>Savory.Repository</title>
+    <authors>Harris Zhang</authors>
+    <owners>Harris Zhang</owners>
+    <licenseUrl>https://www.savory.cn</licenseUrl>
+    <projectUrl>https://www.savory.cn</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/harriszhang14/Ranta/master/Ranta.Image/Icon/RantaIcon_150_150.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Savory.Repository</description>
+    <releaseNotes>Savory.Repository</releaseNotes>
+    <copyright>Copyright © Harris Zhang 2016</copyright>
+    <tags>Savory.Repository</tags>
+  </metadata>
+  <files>
+    <file src="Savory.Repository\bin\Release\Savory.Repository.dll" target="lib\net45" />
+    <file src="Savory.Repository\bin\Release\Savory.Repository.xml" target="lib\net45" />
+  </files>
+</package>

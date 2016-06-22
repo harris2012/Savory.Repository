@@ -9,31 +9,31 @@ namespace Savory.Repository
     /// <summary>
     /// 返回码
     /// </summary>
-    public enum SpResult
+    public static class SpResult
     {
         /// <summary>
         /// 失败
         /// </summary>
-        Failed = 0,
+        public const int Failed = 0;
 
         /// <summary>
         /// 成功
         /// </summary>
-        Successful = 1,
+        public const int Successful = 1;
 
         /// <summary>
         /// 登录成功
         /// </summary>
-        EmailSignin_Successful = 3,
+        public const int EmailSignin_Successful = 3;
 
         /// <summary>
         /// 邮箱还没有被激活
         /// </summary>
-        EmailSignin_EmailNotActive = 4,
+        public const int EmailSignin_EmailNotActive = 4;
 
         /// <summary>
         /// 用户名或密码不正确
         /// </summary>
-        EmailSignin_Failed = 5
+        public const int EmailSignin_Failed = 5;
     }
 }

@@ -51,6 +51,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SpNameConst.tt</DependentUpon>
     </Compile>
+    <Compile Include="SpResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ParamNameConst.tt">

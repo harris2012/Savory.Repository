@@ -83,7 +83,13 @@
         "AccessToken",
         "RefreshToken",
         "Head40",
-        "Head100"
+        "Head100",
+
+        "Id",
+        "ResType",
+        "ResGroup",
+        "Href",
+        "Status"
     };
 #>
 namespace Savory.Repository

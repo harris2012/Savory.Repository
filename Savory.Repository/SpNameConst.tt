@@ -40,7 +40,9 @@
 
         "Sp_GetMottoList",
 
-        "Sp_Sec_CreateTencentUser"
+        "Sp_Sec_CreateTencentUser",
+
+        "Sp_Master_GetStaticResource"
     };
 #>
 namespace Savory.Repository

@@ -48,5 +48,7 @@
         public const string Sp_GetMottoList = "Sp_GetMottoList";
 
         public const string Sp_Sec_CreateTencentUser = "Sp_Sec_CreateTencentUser";
+
+        public const string Sp_Master_GetStaticResource = "Sp_Master_GetStaticResource";
     }
 }

@@ -112,5 +112,15 @@
         public const string Head40 = "Head40";
 
         public const string Head100 = "Head100";
+
+        public const string Id = "Id";
+
+        public const string ResType = "ResType";
+
+        public const string ResGroup = "ResGroup";
+
+        public const string Href = "Href";
+
+        public const string Status = "Status";
     }
 }

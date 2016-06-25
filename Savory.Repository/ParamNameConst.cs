@@ -122,5 +122,7 @@
         public const string Href = "Href";
 
         public const string Status = "Status";
+
+        public const string Domain = "Domain";
     }
 }

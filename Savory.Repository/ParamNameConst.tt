@@ -89,7 +89,9 @@
         "ResType",
         "ResGroup",
         "Href",
-        "Status"
+        "Status",
+
+        "Domain"
     };
 #>
 namespace Savory.Repository

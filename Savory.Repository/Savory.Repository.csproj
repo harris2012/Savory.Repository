@@ -51,6 +51,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SpNameConst.tt</DependentUpon>
     </Compile>
+    <Compile Include="SpNameConst_Favorite.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpNameConst_Favorite.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpNameConst_Master.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpNameConst_Master.tt</DependentUpon>
+    </Compile>
     <Compile Include="SpResult.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +71,14 @@
     <Content Include="SpNameConst.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>SpNameConst.cs</LastGenOutput>
+    </Content>
+    <Content Include="SpNameConst_Favorite.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>SpNameConst_Favorite.cs</LastGenOutput>
+    </Content>
+    <Content Include="SpNameConst_Master.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>SpNameConst_Master.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

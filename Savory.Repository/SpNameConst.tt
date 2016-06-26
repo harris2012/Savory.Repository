@@ -40,15 +40,12 @@
 
         "Sp_GetMottoList",
 
-        "Sp_Sec_CreateTencentUser",
-
-        "Sp_Master_GetStaticResource",
-        "Sp_Master_GetFavorite"
+        "Sp_Sec_CreateTencentUser"
     };
 #>
 namespace Savory.Repository
 {
-    public class SpNameConst
+    public partial class SpNameConst
     {
 <#
     foreach(var item in list)

@@ -1,6 +1,6 @@
 ﻿namespace Savory.Repository
 {
-    public class SpNameConst
+    public partial class SpNameConst
     {
 
         public const string Sp_Sec_EmailSignin = "Sp_Sec_EmailSignin";
@@ -48,9 +48,5 @@
         public const string Sp_GetMottoList = "Sp_GetMottoList";
 
         public const string Sp_Sec_CreateTencentUser = "Sp_Sec_CreateTencentUser";
-
-        public const string Sp_Master_GetStaticResource = "Sp_Master_GetStaticResource";
-
-        public const string Sp_Master_GetFavorite = "Sp_Master_GetFavorite";
     }
 }

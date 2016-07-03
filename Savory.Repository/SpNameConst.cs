@@ -50,5 +50,7 @@
         public const string Sp_Sec_CreateTencentUser = "Sp_Sec_CreateTencentUser";
 
         public const string Sp_GetStaticResource = "Sp_GetStaticResource";
+
+        public const string Sp_GetConfigList = "Sp_GetConfigList";
     }
 }

@@ -124,5 +124,9 @@
         public const string Status = "Status";
 
         public const string Domain = "Domain";
+
+        public const string ConfigName = "ConfigName";
+
+        public const string ConfigValue = "ConfigValue";
     }
 }

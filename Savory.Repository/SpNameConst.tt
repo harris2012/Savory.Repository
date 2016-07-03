@@ -43,7 +43,9 @@
         "Sp_Sec_CreateTencentUser",
 
         //Savory.Web
-        "Sp_GetStaticResource"
+        "Sp_GetStaticResource",
+
+        "Sp_GetConfigList"
     };
 #>
 namespace Savory.Repository

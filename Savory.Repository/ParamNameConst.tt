@@ -91,7 +91,10 @@
         "Href",
         "Status",
 
-        "Domain"
+        "Domain",
+
+        "ConfigName",
+        "ConfigValue"
     };
 #>
 namespace Savory.Repository

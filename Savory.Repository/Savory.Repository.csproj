@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -62,6 +63,7 @@
       <DependentUpon>SpNameConst_Master.tt</DependentUpon>
     </Compile>
     <Compile Include="SpResult.cs" />
+    <Compile Include="SqlProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ParamNameConst.tt">

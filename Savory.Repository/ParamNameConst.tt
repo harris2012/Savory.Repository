@@ -94,7 +94,9 @@
         "Domain",
 
         "ConfigName",
-        "ConfigValue"
+        "ConfigValue",
+
+        "CsrfCode"
     };
 #>
 namespace Savory.Repository

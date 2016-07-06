@@ -128,5 +128,7 @@
         public const string ConfigName = "ConfigName";
 
         public const string ConfigValue = "ConfigValue";
+
+        public const string CsrfCode = "CsrfCode";
     }
 }

@@ -96,7 +96,17 @@
         "ConfigName",
         "ConfigValue",
 
-        "CsrfCode"
+        "CsrfCode",
+
+        "PictureRowId",
+        "Extension",
+        "MimeType",
+        "FileBytesSize",
+        "QiniuPath",
+        "QiniuHash",
+        "SavoryPath",
+        "WaterMark",
+        "UploadTime"
     };
 #>
 namespace Savory.Repository

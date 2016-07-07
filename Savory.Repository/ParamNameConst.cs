@@ -130,5 +130,23 @@
         public const string ConfigValue = "ConfigValue";
 
         public const string CsrfCode = "CsrfCode";
+
+        public const string PictureRowId = "PictureRowId";
+
+        public const string Extension = "Extension";
+
+        public const string MimeType = "MimeType";
+
+        public const string FileBytesSize = "FileBytesSize";
+
+        public const string QiniuPath = "QiniuPath";
+
+        public const string QiniuHash = "QiniuHash";
+
+        public const string SavoryPath = "SavoryPath";
+
+        public const string WaterMark = "WaterMark";
+
+        public const string UploadTime = "UploadTime";
     }
 }

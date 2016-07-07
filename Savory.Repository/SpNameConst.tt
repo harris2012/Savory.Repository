@@ -48,7 +48,9 @@
         "Sp_GetConfigList",
 
         "Sp_InsertAntiCsrf",
-        "Sp_ValidateAntiCsrf"
+        "Sp_ValidateAntiCsrf",
+
+        "Sp_Insert_SavoryImage"
     };
 #>
 namespace Savory.Repository

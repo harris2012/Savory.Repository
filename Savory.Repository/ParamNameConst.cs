@@ -148,5 +148,7 @@
         public const string WaterMark = "WaterMark";
 
         public const string UploadTime = "UploadTime";
+
+        public const string Hash = "Hash";
     }
 }

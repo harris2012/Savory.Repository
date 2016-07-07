@@ -106,7 +106,8 @@
         "QiniuHash",
         "SavoryPath",
         "WaterMark",
-        "UploadTime"
+        "UploadTime",
+        "Hash"
     };
 #>
 namespace Savory.Repository

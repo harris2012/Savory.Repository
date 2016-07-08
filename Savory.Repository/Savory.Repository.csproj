@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfigKey.cs" />
     <Compile Include="ConfigRepository.cs" />
     <Compile Include="Entity\ConfigEntity.cs" />
     <Compile Include="ParamNameConst.cs">

@@ -50,5 +50,6 @@ namespace Savory.Repository
         public const string QiniuUpHost = "QiniuUpHost";
         public const string QiniuFSizeMin = "QiniuFSizeMin";
         public const string QiniuFSizeMax = "QiniuFSizeMax";
+        public const string QiniuPutPolicyReturnBody = "QiniuPutPolicyReturnBody";
     }
 }

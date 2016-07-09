@@ -107,7 +107,11 @@
         "SavoryPath",
         "WaterMark",
         "UploadTime",
-        "Hash"
+        "Hash",
+
+        "FileKey",
+        "Width",
+        "Height"
     };
 #>
 namespace Savory.Repository

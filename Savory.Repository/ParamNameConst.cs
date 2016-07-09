@@ -150,5 +150,11 @@
         public const string UploadTime = "UploadTime";
 
         public const string Hash = "Hash";
+
+        public const string FileKey = "FileKey";
+
+        public const string Width = "Width";
+
+        public const string Height = "Height";
     }
 }

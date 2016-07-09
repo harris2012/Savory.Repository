@@ -50,7 +50,7 @@
         "Sp_InsertAntiCsrf",
         "Sp_ValidateAntiCsrf",
 
-        "Sp_Insert_SavoryImage"
+        "Sp_Master_UploadImage"
     };
 #>
 namespace Savory.Repository

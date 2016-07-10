@@ -98,18 +98,14 @@
 
         "CsrfCode",
 
-        "PictureRowId",
+        "ImageRowId",
+        "OriginRowId",
         "Extension",
         "MimeType",
         "FileBytesSize",
-        "QiniuPath",
+        "QiniuKey",
         "QiniuHash",
-        "SavoryPath",
-        "WaterMark",
         "UploadTime",
-        "Hash",
-
-        "FileKey",
         "Width",
         "Height"
     };

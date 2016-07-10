@@ -58,9 +58,5 @@
         public const string Sp_ValidateAntiCsrf = "Sp_ValidateAntiCsrf";
 
         public const string Sp_Insert_SavoryImage = "Sp_Insert_SavoryImage";
-
-        public const string Sp_Insert_LocalImage = "Sp_Insert_LocalImage";
-
-        public const string Sp_Insert_QiniuImage = "Sp_Insert_QiniuImage";
     }
 }

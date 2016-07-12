@@ -30,7 +30,7 @@ namespace Savory.Repository
 
         public static List<ConfigEntity> GetConfigEntityList()
         {
-            List<ConfigEntity> returnValue = RuntimeCache.GetDataWithSlidingExpiration("CacheKey_ConfigList", () =>
+            List<ConfigEntity> returnValue = RuntimeCache.GetDataWithAbsoluteExpiration("CacheKey_ConfigList", () =>
             {
                 List<ConfigEntity> entityList = new List<ConfigEntity>();
 
@@ -51,7 +51,7 @@ namespace Savory.Repository
                 }
 
                 return entityList;
-            });
+            }, 5);
 
             return returnValue;
         }

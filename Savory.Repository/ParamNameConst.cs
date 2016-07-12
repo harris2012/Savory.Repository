@@ -150,5 +150,7 @@
         public const string Width = "Width";
 
         public const string Height = "Height";
+
+        public const string RoleName = "RoleName";
     }
 }

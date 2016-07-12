@@ -107,7 +107,9 @@
         "QiniuHash",
         "UploadTime",
         "Width",
-        "Height"
+        "Height",
+
+        "RoleName"
     };
 #>
 namespace Savory.Repository

@@ -60,5 +60,7 @@
         public const string Sp_Insert_SavoryImage = "Sp_Insert_SavoryImage";
 
         public const string Sp_Get_Sec_UserRole = "Sp_Get_Sec_UserRole";
+
+        public const string Sp_Insert_Post = "Sp_Insert_Post";
     }
 }

@@ -152,5 +152,11 @@
         public const string Height = "Height";
 
         public const string RoleName = "RoleName";
+
+        public const string Body = "Body";
+
+        public const string PublishTime = "PublishTime";
+
+        public const string Ename = "Ename";
     }
 }

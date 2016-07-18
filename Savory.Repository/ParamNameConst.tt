@@ -109,7 +109,11 @@
         "Width",
         "Height",
 
-        "RoleName"
+        "RoleName",
+
+        "Body",
+        "PublishTime",
+        "Ename"
     };
 #>
 namespace Savory.Repository

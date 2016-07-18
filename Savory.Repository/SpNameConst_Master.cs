@@ -6,5 +6,7 @@
         public const string Sp_Master_GetStaticResource = "Sp_Master_GetStaticResource";
 
         public const string Sp_Master_GetFavorite = "Sp_Master_GetFavorite";
+
+        public const string Sp_Master_GetPost = "Sp_Master_GetPost";
     }
 }

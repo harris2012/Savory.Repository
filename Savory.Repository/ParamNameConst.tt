@@ -113,7 +113,13 @@
 
         "Body",
         "PublishTime",
-        "Ename"
+        "Ename",
+
+        "Abstract",
+        "CoverImageRowId",
+        "CategoryId",
+        "TagId",
+        "TagIds"
     };
 #>
 namespace Savory.Repository

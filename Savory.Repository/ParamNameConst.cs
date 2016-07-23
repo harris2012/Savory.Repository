@@ -158,5 +158,15 @@
         public const string PublishTime = "PublishTime";
 
         public const string Ename = "Ename";
+
+        public const string Abstract = "Abstract";
+
+        public const string CoverImageRowId = "CoverImageRowId";
+
+        public const string CategoryId = "CategoryId";
+
+        public const string TagId = "TagId";
+
+        public const string TagIds = "TagIds";
     }
 }

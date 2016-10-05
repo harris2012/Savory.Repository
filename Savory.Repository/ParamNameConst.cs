@@ -168,5 +168,9 @@
         public const string RowStart = "RowStart";
 
         public const string RowEnd = "RowEnd";
+
+        public const string DataStatus = "DataStatus";
+
+        public const string Notes = "Notes";
     }
 }

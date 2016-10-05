@@ -119,7 +119,10 @@
         "TagIds",
 
         "RowStart",
-        "RowEnd"
+        "RowEnd",
+
+        "DataStatus",
+        "Notes"
     };
 #>
 namespace Savory.Repository

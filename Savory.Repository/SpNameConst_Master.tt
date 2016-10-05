@@ -9,7 +9,8 @@
     {
         "Sp_Master_GetStaticResource",
         "Sp_Master_GetFavorite",
-        "Sp_Master_GetPost"
+        "Sp_Master_GetPost",
+        "Sp_Master_GetSavoryImage"
     };
 #>
 namespace Savory.Repository

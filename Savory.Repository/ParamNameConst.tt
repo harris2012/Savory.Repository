@@ -46,9 +46,6 @@
 
         "OriginalId",
 
-        "PageIndex",
-        "PageSize",
-
         "PostRowId",
 
         "FileName",
@@ -119,7 +116,10 @@
         "CoverImageRowId",
         "CategoryId",
         "TagId",
-        "TagIds"
+        "TagIds",
+
+        "RowStart",
+        "RowEnd"
     };
 #>
 namespace Savory.Repository

@@ -8,5 +8,7 @@
         public const string Sp_Master_GetFavorite = "Sp_Master_GetFavorite";
 
         public const string Sp_Master_GetPost = "Sp_Master_GetPost";
+
+        public const string Sp_Master_GetSavoryImage = "Sp_Master_GetSavoryImage";
     }
 }

@@ -59,10 +59,6 @@
 
         public const string OriginalId = "OriginalId";
 
-        public const string PageIndex = "PageIndex";
-
-        public const string PageSize = "PageSize";
-
         public const string PostRowId = "PostRowId";
 
         public const string FileName = "FileName";
@@ -168,5 +164,9 @@
         public const string TagId = "TagId";
 
         public const string TagIds = "TagIds";
+
+        public const string RowStart = "RowStart";
+
+        public const string RowEnd = "RowEnd";
     }
 }

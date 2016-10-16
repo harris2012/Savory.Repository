@@ -57,7 +57,9 @@ namespace Savory.Repository
 
         public List<ConfigEntity> GetConfigEntityList()
         {
-            List<ConfigEntity> returnValue = RuntimeCache.GetDataWithAbsoluteExpiration("CacheKey_ConfigList", () =>
+            string cacheKey = string.Format("CacheKey_ConfigList_{0}", ConfigTableName);
+
+            List<ConfigEntity> returnValue = RuntimeCache.GetDataWithAbsoluteExpiration(cacheKey, () =>
             {
                 List<ConfigEntity> entityList = new List<ConfigEntity>();
 

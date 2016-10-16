@@ -15,6 +15,7 @@ namespace Savory.Repository.Test
                 Assert.IsNotNull(list);
 
                 Assert.AreNotEqual(0, list.Count);
+                //Assert.AreEqual(1, list.Count);
             }
 
             {
@@ -23,6 +24,7 @@ namespace Savory.Repository.Test
                 Assert.IsNotNull(list);
 
                 Assert.AreNotEqual(0, list.Count);
+                //Assert.AreEqual(7, list.Count);
             }
 
             {
@@ -31,6 +33,7 @@ namespace Savory.Repository.Test
                 Assert.IsNotNull(list);
 
                 Assert.AreNotEqual(0, list.Count);
+                //Assert.AreEqual(35, list.Count);
             }
         }
     }

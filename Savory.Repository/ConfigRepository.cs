@@ -32,6 +32,11 @@ namespace Savory.Repository
             ConfigTableName = configTableName;
         }
 
+        public static ConfigRepository GetRepository(string configTableName)
+        {
+            return new ConfigRepository(configTableName);
+        }
+
         public string GetConfigValue(string configName)
         {
             string configValue = string.Empty;

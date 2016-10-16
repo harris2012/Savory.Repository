@@ -18,17 +18,15 @@ namespace Savory.Repository.Test
             }
 
             {
-                var list = new ConfigRepository("Cfg_Qiniu").GetConfigEntityList();
+                var list = new ConfigRepository(ConfigTableName.QiniuCofig).GetConfigEntityList();
 
                 Assert.IsNotNull(list);
 
                 Assert.AreNotEqual(0, list.Count);
-
-
             }
 
             {
-                var list = new ConfigRepository("Cfg_UEditor").GetConfigEntityList();
+                var list = ConfigRepository.GetRepository(ConfigTableName.UEditorConfig).GetConfigEntityList();
 
                 Assert.IsNotNull(list);
 

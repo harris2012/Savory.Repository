@@ -51,8 +51,6 @@
 
         public const string Sp_GetStaticResource = "Sp_GetStaticResource";
 
-        public const string Sp_GetConfigList = "Sp_GetConfigList";
-
         public const string Sp_InsertAntiCsrf = "Sp_InsertAntiCsrf";
 
         public const string Sp_ValidateAntiCsrf = "Sp_ValidateAntiCsrf";

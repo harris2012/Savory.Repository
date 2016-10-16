@@ -7,13 +7,33 @@ namespace Savory.Repository.Test
     public class ConfigRepositoryTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestGetConfigEntityList()
         {
-            var list = ConfigRepository.GetConfigEntityList();
+            {
+                var list = new ConfigRepository().GetConfigEntityList();
 
-            Assert.IsNotNull(list);
+                Assert.IsNotNull(list);
 
-            Assert.AreNotEqual(0, list.Count);
+                Assert.AreNotEqual(0, list.Count);
+            }
+
+            {
+                var list = new ConfigRepository("Cfg_Qiniu").GetConfigEntityList();
+
+                Assert.IsNotNull(list);
+
+                Assert.AreNotEqual(0, list.Count);
+
+
+            }
+
+            {
+                var list = new ConfigRepository("Cfg_UEditor").GetConfigEntityList();
+
+                Assert.IsNotNull(list);
+
+                Assert.AreNotEqual(0, list.Count);
+            }
         }
     }
 }

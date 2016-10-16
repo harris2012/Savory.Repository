@@ -8,9 +8,31 @@ using System.Threading.Tasks;
 
 namespace Savory.Repository
 {
-    public class ConfigRepository
+    public sealed class ConfigRepository
     {
-        public static string GetConfigValue(string configName)
+        private const string DefaultConfigTableName = "Cfg_General";
+
+        /// <summary>
+        /// 配置表名称
+        /// </summary>
+        public string ConfigTableName { get; private set; }
+
+        public ConfigRepository()
+        {
+            ConfigTableName = DefaultConfigTableName;
+        }
+
+        public ConfigRepository(string configTableName)
+        {
+            if (string.IsNullOrEmpty(configTableName))
+            {
+                throw new ArgumentNullException(nameof(configTableName));
+            }
+
+            ConfigTableName = configTableName;
+        }
+
+        public string GetConfigValue(string configName)
         {
             string configValue = string.Empty;
 
@@ -28,15 +50,17 @@ namespace Savory.Repository
             return configValue;
         }
 
-        public static List<ConfigEntity> GetConfigEntityList()
+        public List<ConfigEntity> GetConfigEntityList()
         {
             List<ConfigEntity> returnValue = RuntimeCache.GetDataWithAbsoluteExpiration("CacheKey_ConfigList", () =>
             {
                 List<ConfigEntity> entityList = new List<ConfigEntity>();
 
+                string sql = string.Format(@"SELECT ConfigName, ConfigValue FROM {0} WHERE DataStatus = 1", ConfigTableName);
+
                 using (var sqlConn = SqlProvider.GetSqlConnection(SqlProvider.GetConnName()))
                 {
-                    var sqlCmd = SqlProvider.GetSqlCommandForSp(SpNameConst.Sp_GetConfigList, sqlConn);
+                    var sqlCmd = SqlProvider.GetSqlCommandForText(sql, sqlConn);
 
                     var reader = sqlCmd.ExecuteReader();
                     while (reader.Read())

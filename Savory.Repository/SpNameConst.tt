@@ -45,8 +45,6 @@
         //Savory.Web
         "Sp_GetStaticResource",
 
-        "Sp_GetConfigList",
-
         "Sp_InsertAntiCsrf",
         "Sp_ValidateAntiCsrf",
 

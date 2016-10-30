@@ -95,8 +95,6 @@
 
         "CsrfCode",
 
-        "ImageRowId",
-        "OriginRowId",
         "Extension",
         "MimeType",
         "FileBytesSize",

@@ -127,10 +127,6 @@
 
         public const string CsrfCode = "CsrfCode";
 
-        public const string ImageRowId = "ImageRowId";
-
-        public const string OriginRowId = "OriginRowId";
-
         public const string Extension = "Extension";
 
         public const string MimeType = "MimeType";

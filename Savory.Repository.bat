@@ -2,6 +2,6 @@ msbuild Savory.Repository\Savory.Repository.csproj /t:rebuild /p:configuration=r
 
 nuget pack Savory.Repository.nuspec
 
-move /y Savory.Repository.*.nupkg D:\GitlabWorkspace\savory-app\SavoryNuget\Packages
+move /y Savory.Repository.*.nupkg D:\LocalWebRoot\SavoryNuget\Packages
 
 pause

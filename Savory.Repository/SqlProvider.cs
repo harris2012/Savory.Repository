@@ -62,27 +62,5 @@ namespace Savory.Repository
 
             return sqlCmd;
         }
-
-        /// <summary>
-        /// 获取连接字符串
-        /// </summary>
-        /// <returns></returns>
-        public static string GetConnString()
-        {
-            string connName = string.Format("SavoryMaster_{0}", Environment.MachineName);
-
-            var connString = ConfigurationManager.ConnectionStrings[connName].ConnectionString;
-
-            return connString;
-        }
-
-        /// <summary>
-        /// 获取连接字符串
-        /// </summary>
-        /// <returns></returns>
-        public static string GetConnName()
-        {
-            return string.Format("SavoryMaster_{0}", Environment.MachineName);
-        }
     }
 }

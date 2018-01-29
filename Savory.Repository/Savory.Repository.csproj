@@ -30,18 +30,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Ranta.Utility, Version=1.1.1.0, Culture=neutral, PublicKeyToken=de363516f0e497fd, processorArchitecture=MSIL">
-      <HintPath>..\packages\Ranta.Utility.1.1.1\lib\net45\Ranta.Utility.dll</HintPath>
+    <Reference Include="Savory.TitanService.Contract, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Savory.TitanService.Contract.1.0.1\lib\net45\Savory.TitanService.Contract.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,56 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ParamNameConst.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ParamNameConst.tt</DependentUpon>
-    </Compile>
+    <Compile Include="ConnStringProvider.cs" />
+    <Compile Include="DalClient.cs" />
+    <Compile Include="DBFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SpNameConst.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SpNameConst.tt</DependentUpon>
-    </Compile>
-    <Compile Include="SpNameConst_Post.cs">
-      <DependentUpon>SpNameConst_Post.tt</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="SpNameConst_Favorite.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SpNameConst_Favorite.tt</DependentUpon>
-    </Compile>
-    <Compile Include="SpNameConst_Master.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SpNameConst_Master.tt</DependentUpon>
-    </Compile>
-    <Compile Include="SpResult.cs" />
     <Compile Include="SqlProvider.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ParamNameConst.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ParamNameConst.cs</LastGenOutput>
-    </Content>
-    <Content Include="SpNameConst.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>SpNameConst.cs</LastGenOutput>
-    </Content>
-    <Content Include="SpNameConst_Post.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>SpNameConst_Post.cs</LastGenOutput>
-    </Content>
-    <Content Include="SpNameConst_Favorite.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>SpNameConst_Favorite.cs</LastGenOutput>
-    </Content>
-    <Content Include="SpNameConst_Master.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>SpNameConst_Master.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
